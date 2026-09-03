@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INNOMA.VC</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            DEFAULT: '#0B2E4E',
+                            dark: '#081F36',
+                        },
+                        teal: {
+                            DEFAULT: '#17B49A',
+                            dark: '#12987F',
+                        },
+                        accent: {
+                            DEFAULT: '#4F86C6',
+                            dark: '#3E6FAD',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white text-gray-700">
+
+    <header class="absolute top-0 left-0 right-0 z-20">
+        <div class="max-w-6xl mx-auto px-5 py-5 flex items-center justify-between">
+
+            <h1 class="text-xl font-bold text-white tracking-wide">
+                INNOMA<span class="text-teal">.VC</span>
+            </h1>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm text-white/90">
+                <a href="#" class="hover:text-teal transition-colors">Кто мы?</a>
+                <a href="#" class="hover:text-teal transition-colors">Услуги</a>
+                <a href="#" class="hover:text-teal transition-colors">Акселератор</a>
+                <a href="#" class="hover:text-teal transition-colors">Новости</a>
+            </nav>
+
+            <a href="#"
+               class="bg-teal text-white text-sm font-semibold px-6 py-2.5 rounded-md hover:bg-teal-dark transition-colors">
+                Войти
+            </a>
+
+        </div>
+    </header>
+
+    <section class="relative bg-navy overflow-hidden bg-cover bg-center" style="background-image: url(./bc49a2d9c02e8e4c39ff29f37248da0deba3f3f2.jpg);">
+        <div class="absolute inset-0 bg-navy-dark/50"></div>
+
+        <div class="relative max-w-6xl mx-auto px-5 pt-32 pb-40">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white leading-tight max-w-2xl">
+                ЗАПУСТИТЕ
+                <br>
+                <span class="bg-teal px-2 inline-block mt-1">ТЕХНОЛОГИЧЕСКИЙ IT-БИЗНЕС</span>
+                <br>
+                <span class="mt-1 inline-block">НА МЕЖДУНАРОДНЫХ РЫНКАХ</span>
+            </h2>
+
+            <p class="text-white/80 mt-5 max-w-md">
+                Открыт набор заявок на акселератор
+            </p>
+
+            <a href="#"
+               class="inline-block mt-8 bg-accent text-white font-semibold px-7 py-3 rounded-md hover:bg-accent-dark transition-colors">
+                Подать заявку
+            </a>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="max-w-6xl mx-auto px-5">
+
+            <h2 class="text-2xl md:text-3xl font-bold text-navy mb-14">Наши услуги</h2>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+                <div>
+                    <h3 class="text-xl font-bold text-navy mb-4">Аналитические исследования</h3>
+                    <p class="text-gray-500 leading-7 mb-6">
+                        Одним из наших ключевых направлений является анализ технологических трендов на международных рынках.
+                        Мы проводим анализ на основе публичных исследований McKinsey, BCG, PWC, Deloitte, Accenture, BCG, EY, Crunchbase,
+                        Dealroom, F65, PitchBook а также агрегируем и анализируем данные из открытых международных источников: патенты,
+                        медиа, научные публикации.
+                    </p>
+                    <a href="#" class="inline-block bg-teal text-white font-semibold px-6 py-3 rounded-md hover:bg-teal-dark transition-colors">
+                        Узнать подробнее
+                    </a>
+                </div>
+                <div class="h-56 rounded-2xl bg-gray-50 flex items-center justify-center">
+                    <img src="./9ba0c7db44181328950d6b56ad3a95142de005fb (1).png" alt="Аналитические исследования" class="h-full object-contain">
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="h-56 rounded-2xl bg-gray-50 flex items-center justify-center order-2 md:order-1">
+                    <img src="./9bc1179ef2206e7a35990901cd73d555d4100cb6.jpg" alt="Онлайн акселератор для IT бизнеса" class="h-full object-contain">
+                </div>
+                <div class="order-1 md:order-2">
+                    <h3 class="text-xl font-bold text-navy mb-4">Онлайн акселератор для IT бизнеса</h3>
+                    <p class="text-gray-500 leading-7 mb-6">
+                        Онлайн программа акселерации IT бизнеса позволит вашей команде открыть новые горизонты и возможности
+                        для бизнеса на глобальных рынках. В результате программы вы получите возможность презентовать свой
+                        проект для международных инвесторов и локальных партнеров.
+                    </p>
+                    <a href="#" class="inline-block bg-teal text-white font-semibold px-6 py-3 rounded-md hover:bg-teal-dark transition-colors">
+                        Узнать подробнее
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
